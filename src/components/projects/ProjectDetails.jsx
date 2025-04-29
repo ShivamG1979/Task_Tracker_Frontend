@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Card, Button, Row, Col, Alert, Spinner, Badge } from 'react-bootstrap';
 import AuthContext from '../../context/AuthContext';
-import TaskList from '../tasks/TaskList';
+import TaskList from '../tasks/TaskList'
 import TaskForm from '../tasks/TaskForm';
 
 const ProjectDetails = () => {
