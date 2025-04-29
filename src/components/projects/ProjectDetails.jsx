@@ -14,7 +14,7 @@ const ProjectDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  // Fetch project and tasks
+  // Fetch project and Task
   const fetchProjectAndTasks = async () => {
     try {
       // Fetch project details
