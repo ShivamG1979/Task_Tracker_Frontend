@@ -8,7 +8,7 @@ import Header from './components/layout/Header';
 import Home from './components/pages/Home';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import Dashboard from './components/dashboard/dashboard';
+import Dashboard from './components/dashboard/Dashboard'; 
 import ProjectDetails from './components/projects/ProjectDetails';
 import PrivateRoute from './components/routing/PrivateRoute';
 
